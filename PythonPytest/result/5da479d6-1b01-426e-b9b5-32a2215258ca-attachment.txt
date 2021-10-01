@@ -1,0 +1,2 @@
+[32mINFO    [0m root:test_calculator.py:22 ===进入测试资源准备===
+[32mINFO    [0m root:test_calculator.py:38 ===进入加法运算测试--整数类型===

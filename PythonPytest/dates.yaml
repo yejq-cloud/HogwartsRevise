@@ -1,0 +1,87 @@
+add:
+  int:
+    datas:
+        - [ 1, 1, 2 ]
+        - [ 1000, 2000, 3000 ]
+        - [ 1, 0, 1 ]
+        - [ 0, 1, 1 ]
+
+    ids:
+      - int_small
+      - int_big
+      - int_zero1
+      - int_zero2
+
+  float:
+    datas:
+      - [0.1, 0.2, 0.3]
+      - [0.2, 0, 0.2]
+      - [0, 0.2, 0.2]
+
+    ids:
+      - float_float
+      - float_zero1
+      - float_zero2
+
+  negative:
+    datas:
+      - [-1, -2, -3]
+      - [-0.1, -0.2, -0.3]
+      - [-1, 1, 0]
+      - [-1, 0, -1]
+
+    ids:
+      - negative_negative
+      - negative_float
+      - negative_int
+      - negative_zero
+
+
+minus:
+  datas:
+    - [1, 1, 0]
+    - [0.2, 0.1, 0.1]
+    - [10000, 1000, 9000]
+    - [1, -1, 2]
+    - [-1, 1, -2]
+
+  ids:
+    - int
+    - float
+    - big_int
+    - int_negative
+    - negative_int
+
+mult:
+  datas:
+    - [ 1, 1, 1 ]
+    - [ 0.1, 0.2, 0.02 ]
+    - [ 1000, 1000, 1000000 ]
+    - [ 1, -1, -1 ]
+    - [ -1, 1, -1 ]
+    - [ -1, 0, 0 ]
+
+  ids:
+    - int
+    - float
+    - big_int
+    - int_negative
+    - negative_int
+    - zero
+
+div:
+  datas:
+    - [ 1, 1, 1 ]
+    - [ 0.1, 0.2, 0.5 ]
+    - [ 1000, 1000, 1 ]
+    - [ 1, -1, -1 ]
+    - [ -1, 1, -1 ]
+
+  ids:
+    - int
+    - float
+    - big_int
+    - int_negative
+    - negative_int
+
+
