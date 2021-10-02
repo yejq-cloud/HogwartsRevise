@@ -1,4 +1,0 @@
-"""
-hogwarts 
-yejq
-"""

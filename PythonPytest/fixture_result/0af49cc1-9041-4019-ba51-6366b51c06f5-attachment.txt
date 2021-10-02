@@ -1,0 +1,1 @@
+[32mINFO    [0m root:test_fixture.py:43 ===进入乘法运算测试===
